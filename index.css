@@ -38,7 +38,7 @@ header {
     width: 57%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly
 }
 nav {
     margin: auto;
@@ -72,6 +72,8 @@ table {
 
 * {
     box-sizing: border-box;
+    font-family: 'Roboto';
+    font-weight: bold;
 }
 
 html, body {
@@ -177,6 +179,55 @@ a:visited {
     color: red;
 }
 
+.text-container-about {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    text-align: left;
+}
+.middle-content-about-top {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 10px;
+}
+.middle-content-about-bottom {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.bottom-container {
+    margin: 2em 0em 0em 0em;
+}
+.buttonStyling {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-width: 3px;
+}
+
+/*ABOUT PAGE MIDDLE CONTENT STYLING*/
+.middle-content-about-top .square:nth-child(1) {
+    width:45%;
+    border-bottom:1px dashed black;
+    margin: 0 auto;
+}
+.middle-content-about-top .square:nth-child(2) {
+    width:45%;
+    border-bottom:1px dashed black;
+    margin: 0 auto;
+}
+.middle-content-about-bottom .square:nth-child(1) {
+    width:45%;
+    border-bottom:1px dashed black;
+    margin: 0 auto;
+}
+.middle-content-about-bottom .square:nth-child(2) {
+    width: 45%;
+    border-bottom:1px dashed black;
+    margin: 0 auto;
+}
 
 
 /* BOX COLORS */
